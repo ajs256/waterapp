@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
   </head>
   <body>
+    <h1 class='ui header'>Water Tracker</h1>
     <p>Your last drink was at:</p>
     <div id="time">No time logged yet!</div>
     <button id='log' class="ui button" >Log a Time</button>
@@ -17,7 +18,7 @@
     <button id="notifTest" class="ui button">Send a test Notification</button>
     <br>
     <p>How long after logging a drink do you want a reminder?</p>
-    <p><label><input id='hours' type='number' style='width: 80px'>hrs</label> <label><input id='min' type='number' style='width: 80px'>min</label>
+    <p><label><span class='ui input'><input id='hours' type='number' style='width: 80px'>hrs</label></span> <span class='ui input'><label><input id='min' type='number' style='width: 80px'>min</label></span>
 <!-- Accent-colored raised button with ripple -->
 <button class="ui button" id='save'>
   Save
