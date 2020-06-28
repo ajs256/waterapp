@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Water Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha256-ZsWP0vT+akWmvEMkNYgZrPHKU9Ke8nYBPC3dqONp1mY=" crossorigin="anonymous"></script>
+    <script defer src="index.js" charset="utf-8"></script>
+        <!-- Material component import -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-deep_purple.min.css" /> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">  
+    <link rel=stylesheet href="index.css">
+  </head>
+  <body>
+    <p>Your last drink was at:</p>
+    <div id="time">No time logged yet!</div>
+    <button id='log' class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" >Log a Time</button>
+    <button id='request' class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Enable Notifications (very WIP)</button>
+    <div id='status'>This message should not appear</div>
+    <button id="notifTest" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Send a test Notification</button>
+    <br>
+    <p>How long after logging a drink do you want a reminder?</p>
+    <p><label><input id='hours' type='number' style='width: 80px'>hrs</label> <label><input id='min' type='number' style='width: 80px'>min</label>
+<!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id='save'>
+  Save
+</button>
+</p>
+
+<br><br>
+    <p><i>Notification icon is <a href="https://icons8.com/icon/17633/water-bottle">Water Bottle icon from Icons8.com</a>.</i></p>
+  </body>
+</html>
